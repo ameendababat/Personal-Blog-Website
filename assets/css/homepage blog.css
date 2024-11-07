@@ -200,72 +200,9 @@
     color: #00778c;
 }
 
-/* Media Queries */ 
 
 
 
-@media  (max-width:600px) {
-    .page {
-        grid-template-columns: 1fr;
-        grid-template-rows: 
-            "logo"
-            "nav"
-            "main"
-            "side"
-            "foot";
 
-    }
-   .navbar ul  {
-    position: static;
-    text-align: center;
-   } 
-   .navbar ul li{
-    display: block;
-    padding: 5px;
-   }
-   .main h2 {
-    font-size: 20px;
-    left: 20px;
-    top: 20px;
-   }
-   .sidebar .myphoto img {
-    width: 100%;
-    height: auto;
-   }
-   .footer .footer-bottom {
-    text-align: center;
-    left: 0px;
-    width: 100%;
-   }
-   .footer .footer-content {
-    flex-direction: column;
-    text-align: center;
-   }
-    
-}
 
-@media (min-width: 601px) and (max-width: 1024) {
-    .page {
-        grid-template-columns: repeat(8,1fr);
-        grid-template-areas: 
-         "logo logo logo logo nav nav nav nav"
-         "main main main main main main main side"
-         "foot foot foot foot foot foot foot foot";
-    }
-    .navbar ul {
-        position: absolute;
-        left: 300px;
-
-    }
-    .sidebar .myphoto img {
-        width: 100%;
-        height: auto;
-    }
-    .footer .footer-bottom {
-        width: 100%;
-        left: 0px;
-        text-align: center;
-    }
-
- }
  
