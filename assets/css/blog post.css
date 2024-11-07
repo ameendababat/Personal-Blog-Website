@@ -128,6 +128,12 @@
     color: #fff;
 }
 
+.main .plog-post .plog-content  q,
+.main .plog-post .plog-content  blockquote {
+  color: #fff;
+}
+
+
 .main .plog-post .plog-content a {
    display: inline-block;
    padding: 10px 10px;
@@ -157,9 +163,7 @@
 }
 
 .sidebar button {
-    background-color: #00778c
-
-    ;
+    background-color: #00778c;
     color: #fff;
     width: 90px;
     height: 100px;
