@@ -373,12 +373,29 @@
         position: absolute;
         right: 5px;
         top: 20px;
+        right: -25px;
+        top: 5px;
     }
 
     .sidebar .myphoto .figcap1 {
         color: #00778c;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
+        position: absolute;
+        left: 100px;
+        top: 260px;
+    }
+
+    .sidebar .myphoto img {
+        clip-path: circle(26% at 60% 55%);
+        
+    }
+
+    
+    .sidebar button {
+        position: absolute;
+        left: 20px;
+        top: 450px;
     }
 
     .main .plog-post .plog-content h2 {
@@ -387,7 +404,7 @@
         color: #fff;
         position: absolute;
         top: -15px;
-        left: 90px;
+        left: 20px;
     }
 }
 
