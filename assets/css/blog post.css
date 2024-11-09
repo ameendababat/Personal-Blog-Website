@@ -181,4 +181,289 @@
 
 
 
+/* Media Queries */
+@media screen and  (max-width: 768px)  {
+
+    
+
+    .log a {
+        font-size: 15px;
+        position: absolute;
+        left: 20px;
+        top: 25px;
+       
+    }
+
+    .navbar {
+        position: relative; 
+        
+    }
+
+    .navbar ul {
+        list-style: none;
+        position: absolute;
+        left: 0px;
+        top: 15px;
+    }
+
+    .navbar ul li {
+        
+        left: 145px;
+        top: 15px;
+    }
+
+    .main h2 {
+        position: absolute;
+        top: 30px;
+        left: 170px;
+        color: #00778c;
+        
+    }
+    .main .flex-contener {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .sidebar {
+        
+        background-color: #fff;
+        height: 300vh;
+        position: relative;
+    }
+
+    .sidebar .myphoto {
+        position: absolute;
+        right: 60px;
+        top: 30px;
+    }
+
+    .sidebar button {
+        
+        position: absolute;
+        left: -60px;
+        top: 450px;
+    }
+
+    .main h1 {
+        position: absolute;
+        top: 30px;
+        left: 250px;
+        color: #00778c;
+    }
+
+    .main .plog-post .plog-content h2 {
+        font-size: 15px;
+        margin: 0 0 10px;
+        color: #fff;
+        position: absolute;
+        top: -12px;
+        left: 130px;
+    }
+
+    .main .plog-post .plog-content .post-info {
+        font-size: 15.6px;
+        margin-bottom: 5px;
+        color: #fff;
+    }
+
+    .main .plog-post .plog-content .post-desc {
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .sidebar .igate-photo img {
+        clip-path: circle(40% at 50% 50%);
+        width: 180px;
+    }
+   
+    .sidebar .igate-photo .figcap {
+        font-size: 15px;
+    }
+
+    .sidebar button {
+        position: absolute;
+        left: 50px;
+        top: 430px;
+    }
+
+}
+
+@media (min-width:400px) and (max-width: 500px) {
+    .page {
+        height: 200vh;
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 55px 70px auto 700px 260px;
+        grid-template-areas:
+            "logo"
+            "nav"
+            "main"
+            "side"
+            "foot"
+            
+    }
+
+    .log a {
+        font-size: 20px;
+        position: absolute;
+        left: 40px;
+        top: 15px;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    .main h2 {
+        position: absolute;
+        top: 25px;
+        left: 80px;
+        color: #00778c;
+        font-size: 20px;
+    }
+
+    .main .flex-contener {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .sidebar .myphoto {
+        position: absolute;
+        right: 80px;
+        top: 0px;
+    }
+
+    .sidebar button {
+        position: absolute;
+        left: 130px;
+        top: 400px;
+    }
+
+    .main .plog-post .plog-content h2 {
+        font-size: 12px;
+        margin: 0 0 10px;
+        color: #fff;
+        position: absolute;
+        top: -15px;
+        left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main h2 {
+        position: absolute;
+        top: 20px;
+        left: 120px;
+        color: #00778c;
+    }
+
+    .main .flex-contener {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .sidebar .myphoto {
+        position: absolute;
+        right: 5px;
+        top: 20px;
+    }
+
+    .sidebar .myphoto .figcap1 {
+        color: #00778c;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .main .plog-post .plog-content h2 {
+        font-size: 12px;
+        margin: 0 0 10px;
+        color: #fff;
+        position: absolute;
+        top: -15px;
+        left: 90px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page {
+        height: 200vh;
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 55px 70px auto 700px 260px;
+        grid-template-areas:
+            "logo"
+            "nav"
+            "main"
+            "side"
+            "foot"
+            
+    }
+
+    .log a {
+        font-size: 20px;
+        position: absolute;
+        left: 40px;
+        top: 15px;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    .main h2 {
+        position: absolute;
+        top: 25px;
+        left: 80px;
+        color: #00778c;
+        font-size: 20px;
+    }
+
+    .main .flex-contener {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .sidebar .myphoto {
+        position: absolute;
+        right: 80px;
+        top: 0px;
+    }
+
+    .sidebar button {
+        position: absolute;
+        left: 130px;
+        top: 400px;
+    }
+
+    .main h1 {
+        position: absolute;
+        top: 30px;
+        left: 140px;
+        color: #00778c;
+    }
+
+    .main .plog-post .plog-content h2 {
+        font-size: 12px;
+        margin: 0 0 10px;
+        color: #fff;
+        position: absolute;
+        top: -15px;
+        left: 20px;
+    }
+
+}
+
+
+
 
