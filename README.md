@@ -8,7 +8,7 @@
 - [📸 Screenshots](#screenshots)
 
  ## 💡 Overview
- This project is a fully responsive blog website created using HTML, CSS, and modern layout techniques (Grid Layout and Flexbox).
+ This first project is a fully responsive blog website created using HTML, CSS, and modern layout techniques (Grid Layout and Flexbox).
  It is designed to adapt smoothly across various screen sizes, on large, medium, and small screens.
 
  ## ✨ Features
