@@ -8,7 +8,7 @@
 .navbar ul {
     list-style: none;
     position: absolute;
-    left: 600px;
+    left:340px;
     top: 15px;
    
 }
@@ -41,6 +41,8 @@
     grid-template-areas: "logo logo logo nav nav nav nav nav nav nav nav nav"
                          "main main main main main main main main main side side side"
                          "foot foot foot foot foot foot foot foot foot foot foot foot ";
+      width: 100%;
+
 
 }
 
@@ -153,13 +155,21 @@
 
 .sidebar .igate-photo img {
     clip-path: circle(40% at 50% 50%);
+    position: absolute;
+    right: 80px;
+    top: 60px;
+   
 }
 
 .sidebar .igate-photo .figcap {
-    color: #00778c
-    ;
+    color: #00778c;
+
     text-align: center;
     font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 250px;
+
 }
 
 .sidebar button {
@@ -182,6 +192,62 @@
 
 
 /* Media Queries */
+ @media screen  and (max-width:900px){
+
+    .page {
+        height: 200vh;
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 70px auto 176px;
+        grid-template-areas:
+            "logo logo logo nav nav nav nav nav nav nav nav nav"
+            "main main main main main main main main main side side side"
+            "foot foot foot foot foot foot foot foot foot foot foot foot ";
+    }
+    .log a {
+        font-size: 15px;
+        position: absolute;
+        left: 40px;
+        top: 25px;
+       
+    }
+
+    .navbar ul {
+        list-style: none;
+        position: absolute;
+        left: 0px;
+        top: 15px;
+    }
+
+    .main h2 {
+        position: absolute;
+        top: 30px;
+        left: 200px;
+        
+        
+    }
+
+    .main .flex-contener {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .sidebar .myphoto {
+        position: absolute;
+        right: 170px;
+        top: 50px;
+    }
+
+    .sidebar button {
+        
+        position: absolute;
+        left: -150px;
+        top: 470px;
+    }
+    
+ }
+
 @media screen and  (max-width: 768px)  {
 
     
@@ -193,6 +259,8 @@
         top: 25px;
        
     }
+
+    
 
     .navbar {
         position: relative; 
@@ -295,7 +363,7 @@
         background-color: #fff;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 55px 70px auto 700px 260px;
+        grid-template-rows: 50px 55px auto 530px 200px;
         grid-template-areas:
             "logo"
             "nav"
@@ -373,8 +441,8 @@
         position: absolute;
         right: 5px;
         top: 20px;
-        right: -25px;
-        top: 5px;
+        right: 80px;
+        top: -20px;
     }
 
     .sidebar .myphoto .figcap1 {
@@ -394,8 +462,8 @@
     
     .sidebar button {
         position: absolute;
-        left: 20px;
-        top: 450px;
+        left: 150px;
+        top: 350px;
     }
 
     .main .plog-post .plog-content h2 {
@@ -410,11 +478,11 @@
 
 @media screen and (max-width: 400px) {
     .page {
-        height: 200vh;
+        height: 292px;
         background-color: #fff;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 55px 70px auto 700px 260px;
+        grid-template-rows: 50px 60px auto 600px 280px;
         grid-template-areas:
             "logo"
             "nav"

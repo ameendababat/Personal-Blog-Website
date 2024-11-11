@@ -114,12 +114,21 @@
 }
 .sidebar .myphoto img {
     clip-path: circle(40% at 60% 60%);
+    
+}
+
+.sidebar .myphoto {
+    position: absolute;
+    right: 60px;
+    top: 40px;
 }
 .sidebar .myphoto .figcap1 {
     color: #00778c;
     text-align: center;
     font-size: 20px;
 }
+
+
 
 .sidebar button {
     background-color: #00778c;
